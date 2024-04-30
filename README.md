@@ -34,6 +34,12 @@ link : http://127.0.0.1:5501/16-map-area.html
 link : http://127.0.0.1:5501/17-table.html
 ## 18-form.html
 link : http://127.0.0.1:5501/18-form.html
+- 웹 접근성 차원에서 바라보면 명시적으로 작성하는게 좋다   
+오래된 통신 기기는 아직 암시적 방식을 지원하지 않는다   
+- 명시적인 방식 for 속성을 사용하여 label과 input 연결   
+input 요소와 label의 관계가 명확해짐, 스크린리더에서 잘 인식되므로 접근성 향상   
+- 암시적 방식 input 요소를 label 요소 내에 포함되는 방식   
+덜 명확하다, label 요소와 input 요소를 함께 그룹화해야 하므로, 디자인 및 레이아웃에 일부 제약이 있을 수 있다.
 ## 19-interactive-element.html
 link : http://127.0.0.1:5501/19-interactive-element.html
 ## 20-scripting.html
