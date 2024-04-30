@@ -1,1 +1,12 @@
-/* CSS 선택자(Selector) */
+h1 {
+  color: blueviolet;
+}
+p {
+  background-color: bisque;
+}
+.note {
+  color: brown;
+}
+#euid {
+  color: red;
+}
