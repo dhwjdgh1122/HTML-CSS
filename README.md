@@ -42,6 +42,13 @@ link : http://127.0.0.1:5501/20-scripting.html
 link : http://127.0.0.1:5501/21-interactive-attribute.html
 ## 22-external-style.html
 link : http://127.0.0.1:5501/22-external-style.html
+- 유저 인터렉션 속성   
+사용자와 상호작용 할 수 있도록 만들어주는 속성
+hidden, tabindex, accesskey, contenteditable, draggable 속성들이 대표적인 속성이다
+- tabindex   
+-1 로 설정해주면 상호작용이 가능한 요소라도 포커스가 이동 X    
+양수값을 설정하여 요소들 간에 포커스가 잡히는 순서를 강제 변환 가능
+0 으로 설정하면 div,span 과 같이 tab 키로 포커스가 불가능한 요소를 기반으로 구현한 후 포커스 설정 가능
 ## 23-embeded-style.html
 link : http://127.0.0.1:5501/23-embeded-style.html
 ## 24-inline-style.html
