@@ -10,8 +10,10 @@ link : http://127.0.0.1:5501/04-unordered-ordered-list.html
 link : http://127.0.0.1:5501/05-definition-list.html
 ## 06-anchor.html
 link : http://127.0.0.1:5501/06-anchor.html
+- _blank는 새 탭으로 링크를 열겠다는 의미임 하지만 언더바를 뺏음에도 불구하고 새 탭으로 열림, 심지어 오타를 내도 새 탭으로 링크가 열린다 why? target 안에 열고싶은 탭창의 이름이 중복되어있으면 새로 열지 않는다.
 ## 07-blockquote-br.html
 link : http://127.0.0.1:5501/07-blockquote-br.html
+- 화면상에서는 <미생> <>으로 감싼게 같지만, 문법상으로 오류가 있기 때문에 &을 사용해야한다.
 ## 08-phrasing-element.html
 link : http://127.0.0.1:5501/08-phrasing-element.html
 ## 09-section-main.html
